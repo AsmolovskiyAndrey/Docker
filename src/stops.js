@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const syncData = fs.readFileSync("../data/Haltestellen.csv", "utf8");
+const syncData = fs.readFileSync("./data/Haltestellen.csv", "utf8");
 const stopsWithId = {};
 const dataStr = syncData.split("\r");
 
