@@ -1,0 +1,25 @@
+{
+  "name": "graphql_aufgabe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "devStart": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.7.17",
+    "@apollo/server": "^4.8.0",
+    "apollo-link-context": "^1.0.20",
+    "dotenv": "^16.3.1",
+    "graphql-tag": "^2.12.6",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
